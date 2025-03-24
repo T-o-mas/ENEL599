@@ -37,7 +37,7 @@ void loop() {
 
     // Print the timestamp (in seconds), flow rate, and total water volume
     Serial.print("Timestamp (s): ");
-    Serial.print(secondsCounter);
+    Serial.print(currentMillis / 1000.0, 3);
     Serial.print(" | Flow rate (L/min): ");
     Serial.print(flowRate);
     Serial.print("\tTotal liters: ");
