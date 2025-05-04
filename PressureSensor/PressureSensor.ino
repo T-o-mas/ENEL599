@@ -12,7 +12,7 @@ unsigned long interval = 1000; // Log every 1000ms (1 second)
 void setup() {
   Serial.begin(9600);
 }
-
+ 
 void loop() {
   unsigned long currentMillis = millis();
 
