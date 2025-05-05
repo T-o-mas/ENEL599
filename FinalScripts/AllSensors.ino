@@ -4,7 +4,7 @@ volatile int pulseCountOutlet = 0; //Water Sensor Outlet (pin 3)
 float flowRateInlet = 0.0;
 float flowRateOutlet = 0.0;
 
-const float calibrationFactor = 7.5; //Pulses per liter
+const float calibrationFactor = 50.25; //Pulses per liter
 
 const int pressurePinInlet = A5; //Inlet pressure sensor
 const int pressurePinOutlet = A0; //Outlet pressure sensor

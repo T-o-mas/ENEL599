@@ -38,7 +38,7 @@ def main():
 	encoder0.openWaitForAttachment(5000)
 
 	dcMotor0.openWaitForAttachment(5000)
-	dcMotor0.setTargetVelocity(-1)
+	dcMotor0.setTargetVelocity(0.7)
 
 	ch.openWaitForAttachment(1000)
 	ch.setOnCurrentChangeHandler(onCurrentChange)
